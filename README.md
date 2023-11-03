@@ -22,7 +22,7 @@ Our project creates a relational database for a tennis club based on the prompt 
 
 Prompt: Pretend you are the owner/operator of a tennis (or football, soccer - your choice) club needing to build a relational database. You hired some students from the MIST 4610 class at the University of Georgia to create the database for you. They need to know more about your organization to identify which entities, attributes, and relationships are important for you. Start by describing your business as a real client.
 
-Response: I am the owner/operator of a tennis club called "Green Valley Tennis Center," located in Athens, Georgia. Our club is a premium tennis facility that caters to tennis enthusiasts of all ages and skill levels. We offer a range of services, from professional coaching and training to court rentals, leagues, tournaments, and a pro shop. Our goal is to provide a top-notch experience for tennis players and create a vibrant and welcoming tennis community in our area.
+Response: I am the owner/operator of a tennis club chain called "Green Valley Tennis Center," located in Athens, Georgia. Our club is a premium tennis facility that caters to tennis enthusiasts of all ages and skill levels. We offer a range of services, from professional coaching and training to court rentals, leagues, tournaments, and a pro shop. Our goal is to provide a top-notch experience for tennis players and create a vibrant and welcoming tennis community in our area.
 
 Key aspects of our business that the MIST 4610 class students should consider when designing the relational database include:
 
@@ -30,21 +30,21 @@ Key aspects of our business that the MIST 4610 class students should consider wh
 
 2. **TennisClubs**: Represents the tennis club itself, Green Valley Tennis Center, including details about the club's location, facilities, and general information.
 
-3. **Courts**: Represents the tennis courts available at the club, including information about each court, such as court number, surface type, and availability.
+3. **Courts**: Represents the tennis courts available at the club, including information about each court, such as court number, and availability.
 
-4. **CourtReservations**: Tracks reservations made by members and non-members for specific tennis courts on specific dates and times, including information about bookings, cancellations, and court assignments.
+4. **CourtReservations**: Tracks reservations made by members for specific tennis courts on specific dates and times, including information about bookings and court assignments.
 
-5. **Positions**: Represents the various job positions within the organization, both for employees and club management, including details about job titles, responsibilities, and access levels.
+5. **Positions**: Represents the various job positions within the organization, both for employees and club management, including details about job titles, responsibilities, and experience levels.
 
-6. **Leagues**: Represents the tennis leagues organized by the club, including information about league types, schedules, and participants.
+6. **Leagues**: Represents the tennis leagues organized by the club, including information about league types, divisions, and participants.
 
-7. **ProShops**: Represents the pro shop at the tennis center, which sells tennis equipment and apparel, including details about the shop's inventory, products, and sales records.
+7. **ProShops**: Represents the pro shop at the tennis center, which sells tennis equipment and apparel, including details about the shop's inventory, products, and hours of operation.
 
 8. **Merchandise**: Contains information about the merchandise available in the pro shop, including product details, pricing, and stock levels.
 
 9. **Tournies**: Represents tennis tournaments organized by the club, including details about tournament types, schedules, and participants.
 
-10. **Memberships**: Tracks the different membership plans offered by the Green Valley Tennis Center, including monthly, annual, and family memberships, and includes access levels and associated fees.
+10. **Memberships**: Tracks the different membership plans offered by the Green Valley Tennis Center, including different types of memberships, associated fees, and membership descriptions.
 
 11. **OrderDetails**: Stores detailed information about orders made by members in the pro shop, including items purchased, quantities, and prices.
 
@@ -188,3 +188,4 @@ This shows the best-performing players, who could be awarded prize money for win
 Name of the database: ns_F2329704Group 5
 
 Additional information: All queries above are stored as procedures in the database and are callable using the format: CALL TP_Q1();
+
