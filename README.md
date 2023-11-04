@@ -153,7 +153,7 @@ This allows the club to tailor their marketing towards those who have not been s
 Query 6 lists out players who have never played in a tournament. 
 ![aidan simple query 6 50](https://github.com/Hwyqlzz/group5/assets/148079593/aa16ac8b-3a09-4c70-9fe9-39b564154be4)
 
-This shows the club who is and is not interested in competitive tennis and demonstrates 
+This shows the club who is and is not interested in competitive tennis, which can be used to refine strategies for player engagement based upon what each player prefers, whether that be competition or just learning how to play.
 
 Query 7 lists the coach's name, the number of players that have lessons with the coach, and the number of lessons that the coach has in total. Order by number of lessons descending.
 
